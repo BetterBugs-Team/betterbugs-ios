@@ -1,0 +1,11 @@
+framework module BetterBugs {
+  umbrella header "Betterbugs.h"
+  export *
+
+  module * { export * }
+}
+
+module BetterBugs.Swift {
+  header "BetterBugs-Swift.h"
+  requires objc
+}
