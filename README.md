@@ -2,44 +2,6 @@
 
 A powerful iOS framework for bug tracking and error reporting in your mobile applications.
 
-## Installation
-
-### Prerequisites
-
-Ensure that CocoaPods is installed on your system. If not, install it using:
-
-```bash
-sudo gem install cocoapods
-```
-
-### Step 1: Initialize Podfile
-
-Navigate to your project directory and create a Podfile if you don't have one:
-
-```bash
-pod init
-```
-
-### Step 2: Add BetterBugs Dependency
-
-Open your `Podfile` and add the following line under your target:
-
-```bash
-pod 'betterbugs', '~> 0.0.4'
-```
-
-### Step 3: Install the Pod
-
-Run the installation command in your project directory:
-
-```bash
-pod install
-```
-
-### Step 4: Open Workspace
-
-After installation, open the `.xcworkspace` file (not the `.xcodeproj` file) in Xcode.
-
 ## Setup and Integration
 
 ### Import the Framework
