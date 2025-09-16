@@ -45,33 +45,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-## Troubleshooting
-
-### Common Installation Error
-
-If you encounter the following error:
-
-```
-[!] CocoaPods could not find compatible versions for pod "betterbugs":
-In Podfile:
-betterbugs (~ 0.0.4)
-None of your spec sources contain a spec satisfying the dependency: betterbugs (~ 0.0.4).
-```
-
-**Solution:**
-
-1. Update your CocoaPods repository:
-   ```bash
-   pod repo update
-   ```
-
-2. Reinstall the pod:
-   ```bash
-   pod install
-   ```
-
-3. Open the `.xcworkspace` file in Xcode and proceed with the integration steps.
-
 ## Configuration
 
 ### API Key Management
@@ -89,5 +62,3 @@ To regenerate or obtain your API key:
 For additional support or questions, please refer to the BetterBugs documentation or contact the support team through your dashboard.
 
 ---
-
-**Note:** Always use the `.xcworkspace` file to open your project in Xcode after installing CocoaPods dependencies.
